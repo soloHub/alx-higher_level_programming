@@ -8,12 +8,10 @@ for (let key in dict) {
     newDict[dict[key]].push(key);
   }
 }
-/**
-  *Object.keys(dict).map(function (key, index) {
-  *  if (newDict[dict[key]] === undefined) {
-  *    newDict[dict[key]] = [];
-  *  }
-  *  newDict[dict[key]].push(key);
-  *});
-  */
+//  Object.keys(dict).map(function (key, index) {
+//    if (newDict[dict[key]] === undefined) {
+//      newDict[dict[key]] = [];
+//    }
+//    newDict[dict[key]].push(key);
+//  });
 console.log(newDict);
